@@ -1,0 +1,66 @@
+body {
+  background-color: #e9ecf2;
+}
+header {
+  text-align: center;
+     background: linear-gradient(0deg, #fa3c3c, #326fd1, #2d417d);
+      border: #131885 transparent 5px;
+  padding: 20px 20px;
+}
+h1{
+font-size: 2em; color: #ffffff;
+  font-family:Arial, Helvetica, sans-serif
+}
+h2{
+font-size: 1em; color: #ffffff;
+  font-family:Arial, Helvetica, sans-serif
+}
+
+main{
+  color: black;
+  font-weight: bold;
+  border-radius: 4px;
+  font-family:Arial, Helvetica, sans-serif
+}
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  margin-top: 10px;
+}
+
+legend {
+  font-weight: bold;
+}
+
+fieldset {
+  margin-bottom: 20px;
+  padding: 10px;
+  border:5px inset #5c85ff;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+  width: 80%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #;
+  border-radius: 4px;
+  display: block;
+}
+
+input[type="submit"] {
+  color: #326fd1;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #2d417d;
+  color: #326fd1;
+}
