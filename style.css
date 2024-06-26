@@ -1,5 +1,7 @@
+
 body {
-  background-color: #e9ecf2;
+  background-color: #acc3f2;
+  
 }
 header {
   text-align: center;
@@ -9,18 +11,15 @@ header {
 }
 h1{
 font-size: 2em; color: #ffffff;
-  font-family:Arial, Helvetica, sans-serif
 }
 h2{
 font-size: 1em; color: #ffffff;
-  font-family:Arial, Helvetica, sans-serif
 }
 
 main{
   color: black;
   font-weight: bold;
   border-radius: 4px;
-  font-family:Arial, Helvetica, sans-serif
 }
 }
 
@@ -41,19 +40,18 @@ fieldset {
 }
 
 input[type="text"],
-input[type="email"],
-input[type="tel"],
 textarea {
   width: 80%;
   padding: 8px;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
   border: 1px solid #;
   border-radius: 4px;
   display: block;
 }
 
 input[type="submit"] {
-  color: #326fd1;
+  background-color: white;
+  color: black;
   padding: 10px 20px;
   border: none;
   border-radius: 4px;
@@ -61,6 +59,15 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-  background-color: #2d417d;
-  color: #326fd1;
+  background-color: red;
+  color: white;
+}
+
+label {
+  width: 80%;
+  padding: 8px;
+  margin-bottom: 5px;
+  border: 1px solid #;
+  border-radius: 4px;
+  display: block;
 }

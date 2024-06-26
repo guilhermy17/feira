@@ -6,11 +6,21 @@
   <meta name="viewport" content="width=device-width">
   <title>replit</title>
   <link href="style.css" rel="stylesheet" type="text/css" />
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+
+  body {
+    font-family: "Bungee", sans-serif;
+  }
+    
+</style>
+  
 </head>
 
 <body>
   <header>
-  <h1>Feira Cursos Técnicos</h1>
+  <h1>Feira dos Cursos Técnicos</h1>
     <h2> Colégio Prof. Lindaura Ribeiro Lucas</h2>
     </header>
   <div class="principal">
@@ -19,6 +29,7 @@
     </p>
     <main>
       <fieldset>
+   <form action="/FORMULARIO" method="POST">     
             <legend>Seus dados</legend>
       <p>
       
@@ -26,24 +37,26 @@
             <label for="nome">Nome completo:</label><br>
             <input type="text" id="nome" name="nome" required><br><br>
 
-            <label for="email">Email:</label><br>
-            <input type="email" id="email" name="email" required><br><br>
-
-            <label for="telefone">Telefone:</label><br>
-            <input type="tel" id="telefone" name="telefone" required><br><br>
-
       <legend style="color: black;">O que você é?</legend>
 
       <label for="aluno" class="label"><input class="padrao" type="radio" value="aluno" name="aluno" id="aluno">Aluno</label>
 
+      <label for="pai" class="label"><input class="padrao" type="radio" value="pai" name=pai id="pai"> Pai/Mãe</label>
+
       <label for="responsável" class="label"><input class="padrao" type="radio" value="responsável" name="responsável" id="responsável">Responsável</label>
 
       <label for="visitante" class="label"><input class="padrao" type="radio" value="visitante" name="visitante" id="visitante">Visitante</label>
+       
+          <label for="hora" class="label">Horário de chegada:</label>
+    <input class="padrao" type="text" id="hora" name="hora" required placeholder="XX:XX">
 
-      <input type="submit" value="Enviar">
+  <input type="submit" value="Enviar">
+  </form>  
         </fieldset>
+      
        </main>
   <script src="script.js"></script>
+    
 </body>
 
 </html>
